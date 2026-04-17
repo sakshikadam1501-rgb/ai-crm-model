@@ -14,33 +14,51 @@ Database: SQLite (can be replaced with MySQL/PostgreSQL)
 
 🤖 Key Features
 Chat-based interaction logging
+
 Structured data extraction using LLM
+
 Edit existing interactions
+
 AI-based next action suggestions
+
 Compliance checking for pharma rules
+
 Interaction history tracking
+
 🛠️ LangGraph Agent Role
-
-
 The LangGraph agent acts as an intelligent assistant for field representatives by:
 
 Understanding natural language input
+
 Extracting structured interaction data
+
 Routing tasks to appropriate tools
+
 Automating CRM workflows
+
 
 
 🧩 Tools Implemented
 Log Interaction Tool
+
 Converts natural language into structured CRM data
+
 Stores interaction in database
+
 Edit Interaction Tool
+
 Updates existing interaction fields
+
 Fetch Insights Tool
+
 Retrieves past interaction history
+
 Suggest Next Action Tool
+
 Recommends follow-ups using AI
+
 Compliance Check Tool
+
 Flags non-compliant pharmaceutical content
 
 
