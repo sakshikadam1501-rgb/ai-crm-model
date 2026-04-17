@@ -1,0 +1,19 @@
+to run project 
+
+backend>python -m venv venv
+
+backend>venv\Scripts\activate
+
+ackend>pip install fastapi uvicorn langchain langgraph groq sqlalchemy pydantic python-dotenv
+
+backend>uvicorn main:app --reload
+
+http://127.0.0.1:8000/docs
+
+post/chat
+
+try it out
+#enter the code 
+{
+  "message": "Met Dr Sharma, discussed insulin"
+}
